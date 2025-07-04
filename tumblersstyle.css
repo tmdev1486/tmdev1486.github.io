@@ -34,6 +34,7 @@ nav a {color: #fbfbfe;
 .hero-message {text-align: center;
   margin: 0 auto 25px auto;
   max-width: 700px;}
+  
 .tumbler-gallery {text-align: center;
   margin: 35px 0;}
 .tumbler-customize-btn,
@@ -52,7 +53,7 @@ footer button {background-color: #00CED1;
   margin-top: 25px;}
 .tumbler-image-row img {width: 300px;
   height: 380px;
-  border: 1px solid #ccc;
+  border: 1px solid #5C5C5C;
   border-radius: 10px;
   margin-bottom: 10px;}
 .tumbler-testimonials {text-align: center;
@@ -67,3 +68,35 @@ footer { background-color: #5C5C5C;
   text-align: center;}
 footer section {flex: 1 1 180px;
   margin: 10px;}
+.about-img-section {text-align: center;
+  margin-bottom: 32px;}
+.about-img {width: 300px;
+  height: auto;
+  border-radius: 10px;
+  border: 1px solid #5C5C5C;
+  background: #fbfbfe;}
+  .custom-table-section {text-align: center;
+  margin-bottom: 32px;}
+table { border-collapse: collapse;
+  margin: 0 auto;
+  width: 80%;
+  max-width: 900px;
+  background: #fbfbfe;}
+th, td {border: 1px solid #ccc;
+  padding: 12px 8px;
+  text-align: center;}
+th {background-color: #1E90FF;
+  color: #fbfbfe;}
+.custom-image-section {text-align: center;
+  margin-bottom: 32px;}
+.custom-img {width: 300px;
+  height: 380px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  background: #fbfbfe;}
+  .custom-figure-row {display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-bottom: 24px;}
+
