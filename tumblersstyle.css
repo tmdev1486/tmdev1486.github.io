@@ -1,5 +1,5 @@
 body {font-family: Arial, sans-serif;
-  background-color: #fbfbfe;
+  background-color: #e6f2ff;
   color: #050315;
   margin: 0;
   padding: 0;}
@@ -7,17 +7,20 @@ header {background-color: #5C5C5C;
   color: #fbfbfe;
   text-align: center;
   padding: 18px 0;}
-.tumbler-header-row { display: flex;
+.tumbler-header-row {
+  display: flex;
   align-items: center;
-  justify-content: space-between;
   max-width: 1100px;
   margin: 0 auto;
   padding: 0 20px;}
-.tumbler-logo img { width: 60px;
+.tumbler-logo {flex: 1;}
+.tumbler-logo img {width: 60px;
   height: 60px;}
-.tumbler-title { flex: 1;
+.tumbler-title {flex: 2;
   text-align: center;}
-.tumbler-search {text-align: right;}
+.tumbler-search {
+  flex: 1;
+  text-align: right;}
 nav {background-color: #1E90FF;
   padding: 10px 0;
   text-align: center;}
@@ -26,15 +29,16 @@ nav ul {list-style: none;
   padding: 0;
   display: flex;
   justify-content: center;}
+nav li {margin: 0 18px;}
 nav a {color: #fbfbfe;
   text-decoration: none;
   margin: 0 16px;
   font-weight: bold;
   font-size: 1.1em;}
+nav a:hover{color: #5C5C5C;}
 .hero-message {text-align: center;
   margin: 0 auto 25px auto;
   max-width: 700px;}
-  
 .tumbler-gallery {text-align: center;
   margin: 35px 0;}
 .tumbler-customize-btn,
@@ -66,7 +70,7 @@ footer { background-color: #5C5C5C;
   flex-wrap: wrap;
   padding: 18px 0;
   text-align: center;}
-footer section {flex: 1 1 180px;
+footer section, footer div {flex: 1 1 180px;
   margin: 10px;}
 .about-img-section {text-align: center;
   margin-bottom: 32px;}
@@ -99,4 +103,31 @@ th {background-color: #1E90FF;
   gap: 30px;
   flex-wrap: wrap;
   margin-bottom: 24px;}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  max-width: 400px;
+  margin: 0 auto;
+  margin-bottom: 2em;}
+.contact-form input {margin-bottom: 0.5em;}
+.contact-form textarea {margin-bottom: 0.5em;}
+.video-section {
+  text-align: center;
+  margin: 2em 0;}
+.video-section video {display: block;
+  margin: 0 auto;
+  border-radius: 8px;}
+.video-caption,
+.process-heading,
+.process-description {text-align: center;}
+.process-description { max-width: 500px;
+  margin: 0.5em auto 0 auto;}
+body {background-color: #e6f2ff;
+  margin: 0;
+  padding: 0;}
+
+
+
+
 

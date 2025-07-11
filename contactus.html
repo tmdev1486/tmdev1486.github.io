@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Contact Us :: Go Dazzle Custom Tumblers</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Go Dazzle for custom tumbler orders, design details, and inquiries. Fill out the form to get in touch with us.">
+  <link rel="stylesheet" href="tumblersstyle.css">
+  <link rel="icon" href="godazzlelogo.jpg" type="image/ico">
+</head>
+<body>
+  <header>
+    <div class="tumbler-header-row">
+      <div class="tumbler-logo">
+        <img src="godazzlelogo.jpg" alt="Custom Tumblers Logo" width="60" height="60">
+      </div>
+      <div class="tumbler-title">
+         <h1>Custom Tumblers</h1>
+      </div>
+      <div class="tumbler-search">
+        <form>
+          <label for="search">Search:</label>
+          <input type="text" id="search" name="search" placeholder="Search...">
+        </form>
+      </div>
+    </div>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="aboutus.html">About Us</a></li>
+      <li><a href="customdesigns.html">Custom Designs</a></li>
+      <li><a href="contactus.html">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="hero-message">
+      <h2>Contact Go Dazzle</h2>
+      <p>
+        If you have any questions or need assistance with your custom tumbler order, please fill out the form below. 
+      </p>
+    <p>
+    Required fields are marked with an asterisk*
+    </p>
+    </section>
+    <form class="contact-form" method="post" action="https://webdevbasics.net/scripts/pacific.php">
+    <label for="myFName">*First Name:</label>
+    <input type="text" id="myFName" name="myFName" required>
+    <label for="myLName">*Last Name:</label>
+    <input type="text" id="myLName" name="myLName" required>
+    <label for="myEmail">*Email:</label>
+    <input type="email" id="myEmail" name="myEmail" required>
+    <label for="designDetails">*Design Details:</label>
+    <textarea name="designDetails" id="designDetails" rows="4" cols="30" required></textarea>
+    <label for="uploadImage">Upload Image:</label>
+    <input type="file" id="uploadImage" name="uploadImage" accept="image/*">
+    <label for="color">Preferred Color:</label>
+    <select id="color" name="color" required>
+    <option value="">--Please choose--</option>
+    <option value="red">Red</option>
+    <option value="purple">Purple</option>
+    <option value="blue">Blue</option>
+    <option value="green">Green</option>
+    <option value="black">Black</option>
+    <option value="orange">Orange</option>
+</select>
+    <input type="submit">
+    </form>
+  </main>
+
+  <footer>
+    <section>
+      <h4>Contact Us</h4>
+      <p>Email: info@GoDazzle.com<br>
+      Phone: (123) 456-7890</p>
+    </section>
+    <div>
+      <p>Copyright &copy; 2025 Go Dazzle.</p>
+    </div>
+    <section>
+      <h4>Join Our Mailing List</h4>
+      <form>
+        <label for="footer-email">Email:</label>
+        <input type="email" id="footer-email" name="footer-email" placeholder="Enter your email">
+        <button type="submit">Subscribe</button>
+      </form>
+    </section>
+  </footer>
+</body>
+</html>
